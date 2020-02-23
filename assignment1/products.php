@@ -15,7 +15,7 @@
             $this -> id = $id;
             $this -> name = $name;
             $this -> description = $description;
-            $this -> price = rand(100, 1000);
+            $this -> price = rand(100, 1000)."kr";
             $this -> numberInStock = rand(0, 100);
         }
         
