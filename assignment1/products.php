@@ -54,6 +54,7 @@
 
     // if no limit parameter was sent use 1 as default value
     $requestLimit = isset($_GET['limit']) ? $_GET['limit'] : 1;
+    
     // make sure response is always between 1 and 10 items
     $requestLimit = ($requestLimit > 10 || $requestLimit < 0) ? 1 : $requestLimit;
 
